@@ -22,13 +22,17 @@ you can see difference between anchor-base and anchor-free
 Train coco2017 on 4 Tesla-V100, 4 imgs for each gpu, init lr=1e-2  using GN GIou.
 
 
-You can download the 36.4 ap result in [Baidu driver link](https://pan.baidu.com/s/1bOgnCNRitOXN4aH6aaNoSw), password: 421x,then put it in checkpoint folder, then run the coco_eval.py
+You can download the 36.4 ap result in [Baidu driver link](https://pan.baidu.com/s/1bOgnCNRitOXN4aH6aaNoSw), password: 421x,then put it in checkpoint folder, then run the coco_eval_retina.py
 
 ### Results in Pascal Voc
 Train Voc07+12 on 4 Tesla-V100 , 4 imgs for each gpu, init lr=1e-2  using GN,GIou.  
 
-You can download the 81.6 ap result in [Baidu driver link](https://pan.baidu.com/s/1raHeFISLmmHbNd_gghAMQA), password:emkw, then put it in checkpoint folder, then run the eval_voc.py and
+You can download the 81.6 ap result in [Baidu driver link](https://pan.baidu.com/s/1raHeFISLmmHbNd_gghAMQA), password:emkw, then put it in checkpoint folder, then run the eval_voc_retina.py and
 
+### train for coco
+You can run the train_coco_retina.py, train 24 epoch and you can get the result. You need to change the coco2017 path.
+### train for PASCAL VOC
+You can run the train_voc_retina.py, train 30 epoch and you can get the result. You need to change the PASCAL07+12 path, you can reference to this repo:https://github.com/YuwenXiong/py-R-FCN
 
 ### Detect Image   
 You can run the detect.py to detect images , this repo provides PASCAL VOC Images detection demo.
