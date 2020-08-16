@@ -1,5 +1,7 @@
 ## RetinaNet: Focal Loss for Dense Object Detection
 
+this repo's code is similar with  my another repo : https://github.com/ChingHo97/FCOS-PyTorch-37.2AP 
+you can see difference between anchor-base and anchor-free 
 ###  AP Result
 | PASCAL VOC (800px) | COCO(800px) |
 | :-----------: | :-----------------: |
